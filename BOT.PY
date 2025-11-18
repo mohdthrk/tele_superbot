@@ -7,9 +7,9 @@ BOT_TOKEN = "8495717635:AAEpGTdwKeCBu0ZzKSQDAETWhhLt9sxxm2I"
 
 app = Client(
     "mybot",
-    bot_token=BOT_TOKEN,
-    api_id=API_ID,
-    api_hash=API_HASH
+    bot_token=8495717635:AAEpGTdwKeCBu0ZzKSQDAETWhhLt9sxxm2I,
+    api_id=39223407,
+    api_hash=a27928891f9283603dd84e4625fad3c
 )
 
 # ---------- Delete Links ----------
@@ -50,4 +50,5 @@ async def song_downloader(_, message):
         await message.reply_text("Usage:\n/song song name")
 
 app.run()
+
 
